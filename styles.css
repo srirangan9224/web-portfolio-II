@@ -1,0 +1,33 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+header {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #353535;
+    color: #fff; 
+    padding-top: 1.5rem; 
+}
+
+section {
+    padding: 2rem; 
+    margin: 1rem 0; 
+}
+
+.about, .projects, .contact, .education {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.projects {
+    margin-bottom: 1rem; 
+}
+
+.project {
+    margin-bottom: 2rem; 
+}
