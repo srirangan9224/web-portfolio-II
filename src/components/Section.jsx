@@ -17,7 +17,7 @@ class Section extends React.Component{
             <section class={this.props.title} style={{ display: this.props.display}}>
             <h2>{this.props.title}</h2>
             <hr/>
-            <p>{this.props.content}</p>
+            <p dangerouslySetInnerHTML={{__html: this.props.content}}></p>
             </section>
             </>
         );
